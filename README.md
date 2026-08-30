@@ -139,7 +139,6 @@ python -m src.processors.entity_resolution_pipeline
 
 ## Testing
 Run the complete test suite:
-# powershell
 python -m pytest
 
 
