@@ -1,7 +1,45 @@
+# Virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+
+# Google Cloud / Service Account credentials
+credentials/
+google_service_account.json
+
+# Generated datasets
 data/
+
+# Logs
 *.log
+
+# IDE / Editor
 .vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test / debug artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local development files
+*.local
