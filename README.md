@@ -286,10 +286,10 @@ entity_mapping.json
 
 ## The final datasets can be exported into the required six logical spreadsheet
 tabs:
-Startups
-Products
-Research Papers
-Jobs
-News
+Startups,
+Products,
+Research Papers,
+Jobs,
+News,
 Entity Mapping Log
 ----------------------------------------------------------------------------------------------------------
